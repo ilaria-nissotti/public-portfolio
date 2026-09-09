@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ilaria Nissotti-Revel — Data Science &amp; ML</title>
+<meta name="description" content="Portfolio of Ilaria Nissotti-Revel — MSc Data Science student at UZH. Machine Learning, NLP, Optimization.">
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-brand"><span class="prompt">&gt;</span> ilaria<span class="cursor">_</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about" class="nav-link">about</a>
+      <a href="#education" class="nav-link">education</a>
+      <a href="#experience" class="nav-link">experience</a>
+      <a href="#projects" class="nav-link">projects</a>
+      <a href="#skills" class="nav-link">skills</a>
+      <a href="#contact" class="nav-link">contact</a>
+      <a href="assets/Ilaria-Nissotti-Revel-CV.pdf" class="nav-link nav-cta" download>résumé ↓</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="grid-lines"></div>
+      <div class="glow glow-1"></div>
+      <div class="glow glow-2"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal"><span class="prompt">$</span> whoami</p>
+      <h1 class="hero-title reveal">
+        Ilaria <span class="gradient-text">Nissotti-Revel</span>
+      </h1>
+      <p class="hero-subtitle reveal">
+        <span id="typed"></span><span class="type-cursor">_</span>
+      </p>
+      <p class="hero-desc reveal">
+        MSc Data Science student at the University of Zurich, minoring in Computational
+        Linguistics. I build things at the intersection of machine learning, language,
+        and data — currently exploring optimization, NLP, and quantitative research.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#projects" class="btn btn-primary">See my work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+      <div class="hero-meta reveal">
+        <span>📍 Zürich, Switzerland</span>
+        <span>🎓 UZH — MSc Data Science</span>
+        <span>🌐 FR · EN · IT · ES · 中文 · DE</span>
+      </div>
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="Scroll down">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="section-inner">
+      <p class="section-tag reveal"><span class="prompt">#</span> 01 — about</p>
+      <h2 class="section-title reveal">A little about me</h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm an analytical, curious, and thoughtful person who thrives in
+            collaborative environments — I like building positive momentum around
+            ambitious, results-driven work.
+          </p>
+          <p>
+            My focus is Data Science, Optimization, and Machine Learning. I'm reliable
+            and highly adaptable: I take initiative, manage my time well, and stay
+            composed under pressure — whether that's a hackathon deadline or a
+            research paper draft due tomorrow.
+          </p>
+          <p>
+            Outside of code, you'll find me running, skiing, or solving a Rubik's
+            cube against the clock — I compete in speedcubing when I get the chance.
+          </p>
+          <div class="chips">
+            <span class="chip">🏃 Running</span>
+            <span class="chip">⛷️ Skiing</span>
+            <span class="chip">🧩 Speedcubing</span>
+            <span class="chip">🏀 Basketball</span>
+            <span class="chip">🏊 Swimming</span>
+            <span class="chip">🗣️ Languages</span>
+          </div>
+        </div>
+        <div class="about-card reveal">
+          <div class="terminal">
+            <div class="terminal-bar">
+              <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
+              <span class="terminal-title">about.py</span>
+            </div>
+            <pre class="terminal-body"><code><span class="tok-kw">class</span> <span class="tok-class">Ilaria</span>:
+    <span class="tok-var">nationalities</span> = [<span class="tok-str">"Swiss"</span>, <span class="tok-str">"Italian"</span>, <span class="tok-str">"American"</span>]
+    <span class="tok-var">based_in</span> = <span class="tok-str">"Zürich, CH"</span>
+    <span class="tok-var">studies</span> = <span class="tok-str">"MSc Data Science @ UZH"</span>
+    <span class="tok-var">minor</span> = <span class="tok-str">"Computational Linguistics"</span>
+    <span class="tok-var">interests</span> = [
+        <span class="tok-str">"Machine Learning"</span>,
+        <span class="tok-str">"Optimization"</span>,
+        <span class="tok-str">"NLP"</span>,
+        <span class="tok-str">"Quant Research"</span>,
+    ]
+
+    <span class="tok-kw">def</span> <span class="tok-fn">say_hi</span>(<span class="tok-var">self</span>):
+        <span class="tok-kw">return</span> <span class="tok-str">"let's build something 🚀"</span></code></pre>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section section-alt">
+    <div class="section-inner">
+      <p class="section-tag reveal"><span class="prompt">#</span> 02 — education</p>
+      <h2 class="section-title reveal">Education</h2>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>MSc Data Science</h3>
+              <span class="timeline-date">2025 — Present</span>
+            </div>
+            <p class="timeline-org">University of Zurich (UZH) · Minor in Computational Linguistics &amp; Language Technology</p>
+            <ul class="timeline-list">
+              <li>Sem. 1 — Foundations of Data Science, Network Science, Reinforcement Learning, Large Language Models</li>
+              <li>Sem. 2 — Model Analysis &amp; Interpretability in NLP (seminar), Master's Project (15 ECTS, Informfully)</li>
+              <li>Sem. 3 — Math for AI &amp; Data Science, Statistical Foundations for Finance, Advanced AI &amp; Machine Translation, ML in NLP</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>MSc Bio-informatics</h3>
+              <span class="timeline-date">2024 — 2025</span>
+            </div>
+            <p class="timeline-org">Université Claude-Bernard Lyon 1</p>
+            <ul class="timeline-list">
+              <li>Data Analysis for Proteomics &amp; Genomics, Databases for Bioinformatics</li>
+              <li>Probabilistic Modeling, Structural Bioinformatics, Python programming</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>BSc Computer Science &amp; Mathematics</h3>
+              <span class="timeline-date">2020 — 2024</span>
+            </div>
+            <p class="timeline-org">Université Grenoble-Alpes</p>
+            <ul class="timeline-list">
+              <li>Linear &amp; Bilinear Algebra, Calculus, Probability &amp; Statistics, Computer Architecture, Applied Mathematics</li>
+              <li>Stage Applicatif (Apr 2023, MoreHisto) — led a team of 5 building a cell-evolution tracking program using Live Cell Imaging microscopy data</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Machine Learning — Stanford University</h3>
+              <span class="timeline-date">2020</span>
+            </div>
+            <p class="timeline-org">Online via Coursera</p>
+            <ul class="timeline-list">
+              <li>Supervised &amp; unsupervised algorithms, neural networks, and practical ML applications</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>International Baccalaureate (IB)</h3>
+              <span class="timeline-date">2017 — 2019</span>
+            </div>
+            <p class="timeline-org">International School of Geneva</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="section-inner">
+      <p class="section-tag reveal"><span class="prompt">#</span> 03 — experience</p>
+      <h2 class="section-title reveal">Experience</h2>
+      <div class="timeline timeline-commits">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot timeline-dot-commit"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Tech AI Quantitative Researcher <span class="badge">Internship</span></h3>
+              <span class="timeline-date">Jun — Aug 2026</span>
+            </div>
+            <p class="timeline-org">Tradeweb, London · Full-time</p>
+            <ul class="timeline-list">
+              <li>Completed an electronic trading project using ML techniques and AI analytics to deliver specific business objectives</li>
+              <li>Built reusable Python pipelines for data processing, API integration, experiment automation, and model evaluation</li>
+              <li>Presented findings and research recommendations to senior tech leaders</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">Quantitative Thinking</span>
+              <span class="tag">Explainability</span>
+              <span class="tag">Scalability</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot timeline-dot-commit"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Data Scientist <span class="badge">Internship</span></h3>
+              <span class="timeline-date">Jun — Jul 2025</span>
+            </div>
+            <p class="timeline-org">Urology Research Institute, San Raffaele Hospital, Milan · Full-time</p>
+            <ul class="timeline-list">
+              <li>Developed a predictive model estimating hospital recovery time after robot-assisted radical prostatectomy</li>
+              <li>Analyzed key factors influencing patient recovery to support data-driven hospital resource allocation</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">Analytical Thinking</span>
+              <span class="tag">Adaptability</span>
+              <span class="tag">Attention to Detail</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot timeline-dot-commit"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Web Developer <span class="badge">Internship</span></h3>
+              <span class="timeline-date">May — Aug 2023</span>
+            </div>
+            <p class="timeline-org">Endotics, Cascina, Italy · Full-time</p>
+            <ul class="timeline-list">
+              <li>Designed and developed an interactive training platform for healthcare professionals adopting medical robotics technology</li>
+              <li>Proactively enhanced UX, ensuring functionality, accessibility, and compliance with healthcare industry standards</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">Initiative</span>
+              <span class="tag">Problem-Solving</span>
+              <span class="tag">Collaboration</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot timeline-dot-commit"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <h3>Project Manager — Stage Applicatif <span class="badge">Internship</span></h3>
+              <span class="timeline-date">Apr 2023</span>
+            </div>
+            <p class="timeline-org">MoreHisto, Meylan, France</p>
+            <ul class="timeline-list">
+              <li>Led a team of 5 to develop a program tracking cell evolution using Live Cell Imaging microscopy data</li>
+              <li>Managed an interdisciplinary team to meet project goals and timelines</li>
+            </ul>
+            <div class="tag-row">
+              <span class="tag">Leadership</span>
+              <span class="tag">Team Coordination</span>
+              <span class="tag">Problem-Solving</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section section-alt">
+    <div class="section-inner">
+      <p class="section-tag reveal"><span class="prompt">#</span> 04 — projects</p>
+      <h2 class="section-title reveal">Projects &amp; Papers</h2>
+      <div class="project-grid">
+
+        <article class="project-card reveal">
+          <div class="project-card-top">
+            <h3>Cell Segmentation Tracking</h3>
+            <span class="project-status">Write-up coming soon</span>
+          </div>
+          <p>Program tracking cell evolution from Live Cell Imaging microscopy data, built during Stage Applicatif at MoreHisto.</p>
+          <div class="tag-row">
+            <span class="tag">Bioinformatics</span>
+            <span class="tag">Computer Vision</span>
+            <span class="tag">Team Leadership</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-card-top">
+            <h3>Temporal Analysis of the Wikidata Knowledge Graph</h3>
+            <span class="project-status">Write-up coming soon</span>
+          </div>
+          <p>Studying how the Wikidata knowledge graph evolves over time — part of coursework in Network Science.</p>
+          <div class="tag-row">
+            <span class="tag">Knowledge Graphs</span>
+            <span class="tag">Network Science</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-card-top">
+            <h3>Meta-Controller for Downstream Skill Utilization</h3>
+            <span class="project-status">Write-up coming soon</span>
+          </div>
+          <p>Reinforcement learning project on meta-control strategies for reusing learned skills downstream.</p>
+          <div class="tag-row">
+            <span class="tag">Reinforcement Learning</span>
+            <span class="tag">Meta-Learning</span>
+          </div>
+        </article>
+
+        <article class="project-card project-card-featured reveal">
+          <div class="project-card-top">
+            <h3>AI for Genomic Pathology</h3>
+            <span class="project-status project-status-live">Future of Health Hackathon</span>
+          </div>
+          <p>Worked with SOPHiA GENETICS to build an intelligent system jumpstarting pathology analysis: aggregating multiple
+            data streams, enabling side-by-side report analysis, supporting natural language queries, and
+            auto-generating key insights — freeing pathologists to focus on clinical decisions.</p>
+          <div class="tag-row">
+            <span class="tag">Artificial Intelligence</span>
+            <span class="tag">Genomics</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-card-top">
+            <h3>Informfully</h3>
+            <span class="project-status">Write-up coming soon</span>
+          </div>
+          <p>Master's Project (15 ECTS) with the DDIS Lab at UZH, part of the MSc Data Science program.</p>
+          <div class="tag-row">
+            <span class="tag">Recommender Systems</span>
+            <span class="tag">NLP</span>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-card-top">
+            <h3>AI for Risk &amp; Compliance</h3>
+            <span class="project-status project-status-live">RiskON Hackathon @ Julius Baer</span>
+          </div>
+          <p>Built an AI-driven approach to risk and compliance workflows in collaboration with Julius Baer.</p>
+          <div class="tag-row">
+            <span class="tag">Artificial Intelligence</span>
+            <span class="tag">Finance</span>
+            <span class="tag">Compliance</span>
+          </div>
+        </article>
+
+        <article class="project-card project-card-featured reveal">
+          <div class="project-card-top">
+            <h3>"When Do LLMs Know What They Know?"</h3>
+            <span class="project-status project-status-live">Research Paper</span>
+          </div>
+          <p>A comparative analysis of verbalized confidence and behavioural consistency as uncertainty signals in LLMs.
+            Evaluated LLaMA 3.1 8B Instruct on 600 questions across arithmetic reasoning, commonsense reasoning, and
+            domain knowledge tasks — finding behavioural consistency outperforms verbalized confidence across all
+            metrics, and that their disagreement pattern reveals two distinct failure modes: false confidence and
+            articulation failure.</p>
+          <div class="tag-row">
+            <span class="tag">Natural Language Processing</span>
+            <span class="tag">Model Interpretability</span>
+            <span class="tag">Uncertainty Estimation</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <div class="section-inner">
+      <p class="section-tag reveal"><span class="prompt">#</span> 05 — skills</p>
+      <h2 class="section-title reveal">Skills &amp; Languages</h2>
+
+      <div class="skills-grid">
+        <div class="skills-block reveal">
+          <h3>Programming</h3>
+          <div class="skill-row"><span>Python</span><div class="skill-bar"><div class="skill-fill" style="--level:95%"></div></div></div>
+          <div class="skill-row"><span>C / C++</span><div class="skill-bar"><div class="skill-fill" style="--level:85%"></div></div></div>
+          <div class="skill-row"><span>R</span><div class="skill-bar"><div class="skill-fill" style="--level:65%"></div></div></div>
+          <div class="skill-row"><span>SQL</span><div class="skill-bar"><div class="skill-fill" style="--level:65%"></div></div></div>
+        </div>
+
+        <div class="skills-block reveal">
+          <h3>Data &amp; AI</h3>
+          <div class="chips">
+            <span class="chip">NumPy</span>
+            <span class="chip">Pandas</span>
+            <span class="chip">Scikit-learn</span>
+            <span class="chip">TensorFlow</span>
+            <span class="chip">PyTorch</span>
+            <span class="chip">Jupyter</span>
+          </div>
+          <h3 class="skills-block-sub">Tools &amp; Environments</h3>
+          <div class="chips">
+            <span class="chip">Git</span>
+            <span class="chip">Linux</span>
+            <span class="chip">VS Code</span>
+            <span class="chip">LaTeX</span>
+          </div>
+          <h3 class="skills-block-sub">Domains</h3>
+          <div class="chips">
+            <span class="chip">Machine Learning</span>
+            <span class="chip">Bioinformatics</span>
+            <span class="chip">NLP</span>
+            <span class="chip">Reinforcement Learning</span>
+            <span class="chip">Quantitative Finance</span>
+            <span class="chip">Data Pipelines</span>
+          </div>
+        </div>
+
+        <div class="skills-block reveal">
+          <h3>Languages</h3>
+          <div class="skill-row"><span>French</span><div class="skill-bar"><div class="skill-fill" style="--level:100%"></div></div><span class="skill-level">Native</span></div>
+          <div class="skill-row"><span>English</span><div class="skill-bar"><div class="skill-fill" style="--level:100%"></div></div><span class="skill-level">Native</span></div>
+          <div class="skill-row"><span>Italian</span><div class="skill-bar"><div class="skill-fill" style="--level:100%"></div></div><span class="skill-level">Native</span></div>
+          <div class="skill-row"><span>Spanish</span><div class="skill-bar"><div class="skill-fill" style="--level:55%"></div></div><span class="skill-level">B1</span></div>
+          <div class="skill-row"><span>Mandarin</span><div class="skill-bar"><div class="skill-fill" style="--level:30%"></div></div><span class="skill-level">A2</span></div>
+          <div class="skill-row"><span>German</span><div class="skill-bar"><div class="skill-fill" style="--level:12%"></div></div><span class="skill-level">Beginner</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-alt section-contact">
+    <div class="section-inner">
+      <p class="section-tag reveal"><span class="prompt">#</span> 06 — contact</p>
+      <h2 class="section-title reveal">Let's talk</h2>
+      <p class="contact-lead reveal">
+        Open to opportunities in Data Science, Machine Learning, and NLP.
+        Reach out — I'll get back to you.
+      </p>
+      <div class="contact-grid reveal">
+        <a class="contact-card" href="mailto:ilaria.nissottirevel@uzh.ch">
+          <span class="contact-icon">✉️</span>
+          <span class="contact-label">Email</span>
+          <span class="contact-value">ilaria.nissottirevel@uzh.ch</span>
+        </a>
+        <a class="contact-card" href="https://www.linkedin.com/in/ilaria-nissotti-revel-637087245/" target="_blank" rel="noopener noreferrer">
+          <span class="contact-icon">💼</span>
+          <span class="contact-label">LinkedIn</span>
+          <span class="contact-value">ilaria-nissotti-revel</span>
+        </a>
+        <a class="contact-card" href="https://github.com/ilaria-nissotti/" target="_blank" rel="noopener noreferrer">
+          <span class="contact-icon">💻</span>
+          <span class="contact-label">GitHub</span>
+          <span class="contact-value">ilaria-nissotti</span>
+        </a>
+        <a class="contact-card" href="assets/Ilaria-Nissotti-Revel-CV.pdf" download>
+          <span class="contact-icon">📄</span>
+          <span class="contact-label">Résumé</span>
+          <span class="contact-value">Download CV (PDF)</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p><span class="prompt">$</span> echo "built by Ilaria Nissotti-Revel, <span id="year"></span>"</p>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>

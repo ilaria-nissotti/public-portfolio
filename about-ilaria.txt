@@ -1,0 +1,198 @@
+================================================================================
+ILARIA NISSOTTI-REVEL
+Personal & Professional Profile
+================================================================================
+Compiled: 2026-09-03
+Source: personal portfolio repository (~/Portfolio/portfolio)
+
+--------------------------------------------------------------------------------
+1. SNAPSHOT
+--------------------------------------------------------------------------------
+- Name:            Ilaria Nissotti-Revel
+- Date of birth:   04 February 2001
+- Location:        Zürich, Switzerland
+- Nationalities:   Swiss, Italian, American
+- Current role:    MSc major in Data Science student & minor in Computational
+                   Linguistics and Language Technology, University of Zurich
+                   (UZH)
+
+--------------------------------------------------------------------------------
+2. CONTACT
+--------------------------------------------------------------------------------
+- Email (personal):   ilariafnissotti@gmail.com
+- Email (university): ilaria.nissottirevel@uzh.ch
+- Phone:              +41 (0) 79 534 17 15
+- LinkedIn:           https://www.linkedin.com/in/ilaria-nissotti-revel-637087245/
+                      (handle: ilaria-nissotti-revel)
+- GitHub:             https://github.com/ilaria-nissotti/
+                      (handle: ilaria-nissotti)
+- References:         Available upon request
+
+--------------------------------------------------------------------------------
+3. PROFILE / ABOUT
+--------------------------------------------------------------------------------
+With an analytical, observant, curious and thoughtful mindset, Ilaria fosters a
+positive and motivating environment, balancing ambition with a results-driven
+approach.
+
+Passionate about Data Science, Optimization, and Machine Learning, she excels in
+collaborative settings where respect and positive synergy are key. Reliable and
+highly adaptable, she takes initiative, manages time efficiently, and remains
+composed under pressure.
+
+--------------------------------------------------------------------------------
+4. EDUCATION
+--------------------------------------------------------------------------------
+
+4.1 MSc Data Science                                          2025 - Present
+    University of Zurich (UZH)
+    Minor: Computational Linguistics & Language Technology
+    - Semester 1: Foundations of Data Science, Network Science,
+      Reinforcement Learning, Large Language Models
+    - Semester 2: Model Analysis & Interpretability in NLP (seminar),
+      Master's Project (15 ECTS - Informfully - see projects section)
+    - Semester 3: Math for AI and Data Science, Statistical Foundations for
+      Finance, Advanced Techniques in AI, Advanced Techniques in Machine
+      Translation, Machine Learning in NLP
+
+4.2 MSc in Bio-informatics                                    2024 - 2025
+    Université Claude-Bernard Lyon 1
+    - Key coursework: Data Analysis (for Proteomics and Genomics),
+      Databases for Bioinformatics, Probabilistic Modeling,
+      Structural Bioinformatics, Python programming
+
+4.3 BSc Computer Science & Mathematics                        2020 - 2024
+    Université Grenoble-Alpes
+    - Key coursework: Linear & Bilinear Algebra, Calculus,
+      Probability & Statistics, Computer Architecture, Applied Mathematics
+    - Stage Applicatif (Apr 2023, MoreHisto, Meylan, France):
+      Led a team of 5 to build a cell-evolution tracking program using
+      Live Cell Imaging microscopy data
+
+4.4 Machine Learning Course                                   2020
+    Stanford University (online via Coursera)
+    - Supervised & unsupervised algorithms, neural networks, and practical
+      applications of machine learning
+
+4.5 International Baccalaureate (IB)                           2017 - 2019
+    International School of Geneva
+
+--------------------------------------------------------------------------------
+5. EXPERIENCE
+--------------------------------------------------------------------------------
+
+5.1 Tech AI Quantitative Researcher (internship)                 Jun - Aug 2026
+    Tradeweb, London                                                  Full-time
+    - Completed an electronic trading project, using ML techniques and AI 
+      analytics to deliver specific business objectives.
+    - Built reusable Python pipelines for data processing, API integration,
+      experiment automation and model evaluation.
+    - Presented findings and further research recommendations to senior tech
+      leaders.
+    Skills highlighted: Quantitative Thinking, Explainability, Scalability
+
+5.2 Data Scientist (Internship)                               Jun - Jul 2025
+    Urology Research Institute, San Raffaele Hospital, Milan   Full-time
+    - Developed a predictive model to estimate hospital recovery time after
+      robot-assisted radical prostatectomy, using clinical and surgical
+      datasets.
+    - Analyzed key factors influencing patient recovery to support
+      data-driven optimization of hospital resource allocation.
+    Skills highlighted: Analytical Thinking, Adaptability, Attention to Detail
+
+5.3 Web Developer (Internship)                                May - Aug 2023
+    Endotics, Cascina, Italy                                  Full-time
+    - Designed and developed an interactive training platform for healthcare
+      professionals, facilitating adoption of innovative medical robotics
+      technology.
+    - Proactively enhanced UX, ensuring functionality, accessibility, and
+      compliance with healthcare industry standards.
+    Skills highlighted: Initiative, Problem-Solving, Collaboration
+
+5.4 Project Manager - Stage Applicatif (Internship)           Apr 2023
+    MoreHisto, Meylan, France
+    - Led a team of 5 to develop a program tracking cell evolution using
+      Live Cell Imaging microscopy data.
+    - Managed an interdisciplinary team to meet project goals and timelines.
+    Skills highlighted: Leadership, Team Coordination, Problem-Solving
+
+--------------------------------------------------------------------------------
+6. PROJECTS & PAPERS
+--------------------------------------------------------------------------------
+
+6.1 Cell Segmentation Tracking (Stage Applicatif)
+    (text and images and github link will come here)
+
+6.2 Temporal Analysis of the Wikidata Knowledge Graph
+    (text and images and github link will come here)
+
+6.3 Meta-Controller for Downstream Skill Utilization
+    (text and images and github link will come here)
+
+6.4 AI for Genomic Pathology | Future of Health Hackathon
+    Worked with SOPHiA GENETICS to create an intelligent system that
+    jumpstarts the analysis process: aggregating multiple data streams;
+    facilitating side-by-side report analysis; supporting natural language
+    queries; and auto-generating key insights. By handling the heavy lifting
+    upfront, it frees pathologists to focus on making informed clinical
+    decisions.
+    Tags: Artificial Intelligence, Genomics
+
+6.5 Informfully @ DDIS Lab, UZH
+    (text and images will come here)
+
+6.6 AI for Risk & Compliance @ Julius Baer | RiskON Hackathon
+    (text and images and github link will come here)
+
+6.7 "When Do LLMs Know What They Know?" paper
+    A comparative analysis of verbalized confidence and behavioural
+    consistency as uncertainty signals in large language models. Evaluated
+    LLaMA 3.1 8B Instruct on 600 questions across arithmetic reasoning,
+    commonsense reasoning, and domain knowledge tasks, finding that
+    behavioural consistency outperforms verbalized confidence across all
+    metrics - and that the pattern of their disagreement identifies two
+    distinct failure modes: false confidence and articulation failure.
+    Tags: Natural Language Processing, Model Interpretability,
+          Uncertainty Estimation
+    (paper link and github link will come here)
+
+
+--------------------------------------------------------------------------------
+7. SKILLS
+--------------------------------------------------------------------------------
+
+Programming:
+    - Advanced:      Python, C/C++
+    - Intermediate:  R, SQL
+
+Data & AI:
+    - NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch, Jupyter
+
+Tools & Environments:
+    - Git, Linux, VS Code, LaTeX
+
+Domains:
+    - Machine Learning, Bioinformatics, NLP, Reinforcement Learning,
+      Quantitative Finance, Data Pipelines
+
+--------------------------------------------------------------------------------
+8. LANGUAGES
+--------------------------------------------------------------------------------
+- French   - native
+- English  - native
+- Italian  - native
+- Spanish  - B1
+- Mandarin - A2 (intensive course)
+- German - just started learning
+
+--------------------------------------------------------------------------------
+9. CERTIFICATES
+--------------------------------------------------------------------------------
+- Machine Learning - Stanford Online by Coursera - November 2020
+
+--------------------------------------------------------------------------------
+10. HOBBIES & INTERESTS
+--------------------------------------------------------------------------------
+- Running, Skiing, Speedcubing
+- Also listed on CV: Basketball, Swimming
+- Languages (as a personal interest)
